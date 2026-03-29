@@ -14,17 +14,6 @@ body {
     padding: 40;
 }
 
-body {
-  /* Replace 60px with your actual navbar height */
-  padding-top: 60px;
-}
-.navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
-}
-
 
 header {
     background: var(--primary-color);
@@ -32,6 +21,7 @@ header {
     padding: 1rem 0;
     position: sticky;
     top: 0;
+    z-index: 1000;
 }
 
 nav ul {
