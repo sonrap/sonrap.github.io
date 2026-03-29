@@ -4,7 +4,7 @@
     --bg-color: #FAE1D4;
     --text-color: #333;
 }
-
+/* Light mode (default)*/
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
@@ -12,6 +12,30 @@ body {
     background-color: var(--bg-color);
     margin: 0;
     padding: 10;
+}
+
+/* Dark mode */
+body.dark-mode {
+  background-color: #121212;
+  color: #f9f9f9;
+}
+
+/* Optional button styling */
+button {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #111;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 2rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode button {
+  background-color: #fff;
+  color: #111;
 }
 
 header {
